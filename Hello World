@@ -1,1 +1,11 @@
-Basic java program to print Hello World.
+//Basic java program to print Hello World.
+import java.io.*;      //Basic Java I/O operations
+class FirstProgram{    //Class declaration, NAME OF THE CLASS IS - FIRST PROGRAM
+    public static void main (String args[]){  // MAIN METHOD
+        System.out.println("Hello World");     //Printing the string "Hello world" here println is used so that the controller will print a new string in next line.
+        System.out.print("The next Line");  //This gets printed in the nextline.
+
+    }
+}
+
+// Remember that {} are closed correctly.!!
